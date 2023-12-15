@@ -40,7 +40,7 @@ const favoriteThings = {
   person: 'Fernando Torres',
   book: 'Atomic Habbits',
   movie: 'Prison Break',
-  holidy: 'Lunar New Year',
+  holiday: 'Lunar New Year',
 };
 
 /// ////////////// PROBLEM 4 ////////////////////
@@ -207,11 +207,8 @@ function addition (array) {
 
 // REPLACE THIS WITH YOUR CODE
 function zooAnimals (obj) {
-  const totalAnimalsCount = 0;
-  for (const key in obj) {
-    totalAnimalsCount += obj[key];
-  }
-  return totalAnimalsCount;
+  const {lion, tiger, bear} = obj;
+  return lion + tiger + bear;
 }
 /// ////////////// PROBLEM 16 ///////////////////
 
